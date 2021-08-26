@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?0569ea200029a0b5aee95a711f8ab7ed") format("truetype"),
+url("./flaticon.woff?0569ea200029a0b5aee95a711f8ab7ed") format("woff"),
+url("./flaticon.woff2?0569ea200029a0b5aee95a711f8ab7ed") format("woff2"),
+url("./flaticon.eot?0569ea200029a0b5aee95a711f8ab7ed#iefix") format("embedded-opentype"),
+url("./flaticon.svg?0569ea200029a0b5aee95a711f8ab7ed#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-left-arrow-angle-big-gross-symbol:before {
+    content: "\f101";
+}
+.flaticon-arrow-angle-pointing-to-right:before {
+    content: "\f102";
+}
