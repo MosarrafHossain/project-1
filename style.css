@@ -7,11 +7,17 @@ body{
     font-family: 'Lato', sans-serif;
 }
 .container{
-    width: 1170px;
+    width: 1140px;
     margin: auto;
 }
 .flex{
     display: flex;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
 }
 
 ul{
@@ -58,10 +64,7 @@ ul{
     float: left;
     padding: 0 15px;
 }
-.row{
-    margin-left: -15px;
-    margin-right: -15px;
-}
+
 
 
 
@@ -531,6 +534,7 @@ ul{
 
 .footer-area{
     background: #171A23;
+    padding-bottom: 20px;
 }
 .footer-widget img{
     margin-bottom: 30px;
@@ -575,6 +579,37 @@ ul{
     color: #999;
     margin-bottom: 20px;
     line-height: 22px;
+}
+.footer-widget form{
+    position: relative;
+}
+.footer-widget form input{
+    height: 40px;
+    width: 100%;
+    border: 0;
+    padding: 0 15px;
+    background: #2f3138;
+    color: white;
+}
+.footer-widget form button{
+    top: 0;
+    position: absolute;
+    right: 0;
+    height: 100%;
+    color: white;
+    background: cornflowerblue;
+    border: 0;
+    padding: 0 15px;
+    font-weight: 700;
+}
+.copyright-area{
+    margin-top: 60px;
+}
+.copyright-text{
+    border-top: 1px solid #2326;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
 }
 
 
